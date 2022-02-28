@@ -1,0 +1,152 @@
+html, body, * { 
+    font-family: "Fira Sans", sans-serif;
+    box-sizing: border-box; 
+}
+body {
+    background-color: #0B121E;
+    color: #fff;
+}
+#container {
+    margin: 120px auto 0;
+    width: 580px;
+}
+#greeting {
+    margin-top: 20px;
+    font-size: 30px;
+}
+#sun-icon, #moon-icon {
+    display: none;
+}
+#sun-icon.active, #moon-icon.active {
+    display: block;
+}
+#time {
+    font-size: 70px;
+    font-weight: 300;
+}
+#hour, #minute, #second {
+    display: inline-block;
+    margin: 0 10px;
+    width: 70px;
+}
+#search {
+    width: 100%;
+    background-color: #0B121E;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #272B37;
+    margin-top: 20px;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 200;
+    padding: 10px 0;
+    transition: border-bottom .3s ease;
+}
+#search:hover {
+    border-bottom: 1px solid #343947;
+}
+#search:focus, #search:active {
+    border-bottom: 1px solid #E8DE89;
+}
+#search::placeholder {
+    font-style: italic;
+    color: #4c5066;
+}
+#bookmarks {
+    margin-top: 20px;
+}
+#bookmarks a,
+#bookmarks a:visited,
+#bookmarks a:active {
+    display: block;
+    color: #788496;
+    padding: 5px 10px;
+    line-height: 30px;
+    font-size: 15px;
+    background-color: #0F1929;
+    text-decoration: none;
+    transition: background-color .5s ease, color .5s ease;
+    margin-bottom: 5px;
+}
+#bookmarks a:hover {
+    color: #E8DE89;
+    background-color: #142033;
+}
+#bookmarks h2 {
+    font-size: 15px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #48BDE1;
+    line-height: 0px;
+    margin: 40px 0 20px;
+}
+#bookmarks .tiled {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap:5px;
+}
+#bookmarks .tiled a,
+#bookmarks .tiled a:visited,
+#bookmarks .tiled a:active {
+    display: block;
+    width: calc(25% - 5px);
+}
+#bookmarks h2 span {
+    background-color: #0B121E;
+    padding-right: 10px;
+}
+.center { text-align: center; }
+.timecon {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
+.img-container img {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+}
+.sunrays {
+    animation: rotation 40s infinite linear;
+}
+.stars {
+    width: 3px;
+    height: 3px;
+    background-color: #ECF0F1;
+    border-radius: 100px;
+    position: absolute;
+    opacity: 0;
+    animation: stars 10s infinite ease-in-out;
+}
+.star-one {
+    top: 20px;
+    right: 20px;
+    animation-delay: 3s;
+}
+.star-two {
+    top: 40px;
+    right: 5px;
+    animation-delay: 6s;
+}
+.star-three {
+    top: 15px;
+}
+.star-four {
+    bottom: 10px;
+    left: 10px;
+    animation-delay: 9s;
+}
+@keyframes stars {
+    0%  { opacity: 0%; }
+    50% { opacity: 100%; }
+    0%  { opacity: 0%; }
+}
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}

@@ -5,4 +5,4 @@ At the moment everything is hard-coded, I may add some updates to pull bookmarks
 
 Pull requests are always welcome, take it and make it your own :)
 
-![Screenshot of sun](https://github.com/uxai/startpage/blob/i/cover.png?raw=true)
+![Screenshot of sun](https://github.com/uxai/startpage/blob/main/i/cover.png)

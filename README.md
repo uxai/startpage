@@ -5,4 +5,16 @@ At the moment everything is hard-coded, I may add some updates to pull bookmarks
 
 Pull requests are always welcome, take it and make it your own :)
 
+[View Demo](https://www.uxai.net/projects/startpage/)
+
+## Installation
+
+1. Clone the repository:
+```
+git@github.com:uxai/startpage.git
+```
+2. Customise the links in the `index.html` file.
+3. Set as browser homepage and enjoy!
+
+
 ![Screenshot of sun](https://github.com/uxai/startpage/blob/main/i/cover.png)

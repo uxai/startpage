@@ -5,7 +5,7 @@ At the moment everything is hard-coded, I may add some updates to pull bookmarks
 
 Pull requests are always welcome, take it and make it your own :)
 
-[View Demo](https://www.uxai.net/projects/startpage/)
+[View Demo](https://uxai.net/projects/starter_page/index.html)
 
 ## Installation
 

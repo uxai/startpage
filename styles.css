@@ -90,6 +90,7 @@ body {
 #bookmarks .tiled a:active {
     display: block;
     width: calc(25% - 5px);
+    margin-bottom: 0;
 }
 #bookmarks h2 span {
     background-color: #0B121E;

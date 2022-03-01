@@ -2,9 +2,7 @@ function search() {
     window.location.href = "https://duckduckgo.com/?q=" + document.getElementById("search").value
 }
 function classToggle(add, remove) {
-    if(!add.classList.contains("active")) {
-        add.classList.add("active")
-    }
+    add.classList.add("active")
     remove.classList.remove("active")
 }
 function setTime() {

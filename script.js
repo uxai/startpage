@@ -1,9 +1,9 @@
 function search() {
     window.location.href = "https://duckduckgo.com/?q=" + document.getElementById("search").value
 }
-function classToggle(add, remove) {
-    add.classList.add("active")
-    remove.classList.remove("active")
+function classToggle(a, r) {
+    a.classList.add("active")
+    r.classList.remove("active")
 }
 function setTime() {
     let greeting = document.getElementById("greeting")

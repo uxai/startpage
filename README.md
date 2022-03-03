@@ -11,7 +11,7 @@ Pull requests are always welcome, take it and make it your own :)
 
 1. Clone the repository:
 ```
-git@github.com:uxai/startpage.git
+git clone git@github.com:uxai/startpage.git
 ```
 2. Customise the links in the `index.html` file.
 3. Set as browser homepage and enjoy!
